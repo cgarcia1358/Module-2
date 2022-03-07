@@ -12,3 +12,4 @@
     # Experienced issues with importing fire in the original app.py. Moved forward with writing code that should work.
     # Also had issue with importing questionary into file.
 
+history 50 > terminal_history.txt
