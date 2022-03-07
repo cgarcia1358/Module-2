@@ -1,4 +1,6 @@
 #import and find path to for csv file.
+pip install import questionary
+pip install import fire
 from pathlib import Path
 my_directory = Path('.')
 print("my_directory")
@@ -7,7 +9,7 @@ csvpath = Path("Qualifying_Loan_Data.csv")
 print(csvpath)
 print(f"The relative CSV path is {csvpath}")
 print(f"The absolute CSV path is {csvpath.absolute()}")
-#create a function to save to csv
+# Create a function to save to csv
 import csv
 def save_csv():
     import csv
